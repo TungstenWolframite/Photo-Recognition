@@ -111,6 +111,6 @@ def whatNumIsThis(filePath):
     ax2.xaxis.set_major_locator(xloc)
     #plt.show()
 
-#createExamples()
+createExamples()
 whatNumIsThis("images/test" + input("Which photo?: ") + ".jpg")
 time.sleep(10)
